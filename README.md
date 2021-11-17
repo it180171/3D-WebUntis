@@ -1,7 +1,7 @@
 # 3D-WebUntis
-Eine responsive Webanwendung eines Sitz- und Stundenplans mit 3D-Modellierung und zusätzlichen nützlichen Funktionen.git
-
+In unserem Projekt geht es um die Entwicklung von einer Web-Applikation in der wir einen 3DSitzplan, basierend auf der Schnittstelle von WebUntis, erstellen möchten.
 Frameworks: Angular, Quarkus
 
-# Mind-Map
+# Projektstrukturplan - PSP
+Hier ein Link zu unserem PSP in Form einer Mind-Map
 https://miro.com/app/board/o9J_lsKhoDc=/
