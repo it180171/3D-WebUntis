@@ -1,5 +1,5 @@
 # 3D-WebUntis
-In unserem Projekt geht es um die Entwicklung einer Web-Applikation in der wir einen 3DSitzplan, basierend auf der Schnittstelle von WebUntis, erstellen möchten.
+In unserem Projekt geht es um die Entwicklung einer Web-Applikation in der wir einen 3D-Sitzplan, basierend auf der Schnittstelle von WebUntis, erstellen möchten.
 Frameworks: Angular, Quarkus
 
 # Projektstrukturplan - PSP
