@@ -2,7 +2,6 @@
 # 3D-WebUntis
 Eine responsive Webanwendung eines Sitz- und Stundenplans mit 3D-Modellierung und zusätzlichen nützlichen Funktionen.git
 
-# 3D-WebUntis
 Frameworks: Angular, NestJS
 
 # Mind-Map
