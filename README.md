@@ -2,8 +2,8 @@
 In unserem Projekt geht es um die Entwicklung einer Web-Applikation in der wir einen 3D-Sitzplan, basierend auf der Schnittstelle von WebUntis, erstellen möchten.
 
 ## Projektstrukturplan - PSP
-![image](https://user-images.githubusercontent.com/57950128/143842430-485856b1-ab3b-4426-a338-b9b08426bf53.png)
-[PSP-Mindmap](https://miro.com/app/board/o9J_lsKhoDc=/)
+![image](https://user-images.githubusercontent.com/57950128/143842430-485856b1-ab3b-4426-a338-b9b08426bf53.png {width=200px height=150px})
+[Tool](https://miro.com/app/board/o9J_lsKhoDc=/)
 
 ## Projektteam
 David Altenhofer, David Precup, Sami Abbas Ali, Philipp Edlinger
