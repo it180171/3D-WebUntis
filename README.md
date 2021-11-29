@@ -11,5 +11,7 @@ David Altenhofer, David Precup, Sami Abbas Ali, Philipp Edlinger
 ## Projektauftraggeber
 Prof. Hans-Christian Hammer, Prof. Christian Aberger
 
-## Frameworks
-Angular, Quarkus
+## Built With
+* [Angular](https://angular.io/)
+* [Quarkus](https://quarkuks.io/)
+* [Bootstrap](https://getbootstrap.com)
