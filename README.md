@@ -3,7 +3,7 @@ In unserem Projekt geht es um die Entwicklung einer Web-Applikation in der wir e
 
 ## Projektstrukturplan - PSP
 [image]<img src="https://user-images.githubusercontent.com/57950128/143842430-485856b1-ab3b-4426-a338-b9b08426bf53.png" align="left" height="500" width="900">
-[Tool](https://miro.com/app/board/o9J_lsKhoDc=/)
+<br>[Tool](https://miro.com/app/board/o9J_lsKhoDc=/)
 
 ## Projektteam
 David Altenhofer, David Precup, Sami Abbas Ali, Philipp Edlinger
