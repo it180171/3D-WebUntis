@@ -17,4 +17,4 @@ Prof. Hans-Christian Hammer, Prof. Christian Aberger
 * [Bootstrap](https://getbootstrap.com)
 
 ## Contact
-David Altenhofer david.altenhofer@gmailcom
+David Altenhofer - david.altenhofer@gmailcom
