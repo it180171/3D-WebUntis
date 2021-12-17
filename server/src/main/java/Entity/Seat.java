@@ -4,21 +4,20 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-public class SeatOrder {
+public class Seat {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    Seat seat;
+    @OneToOne
+    Student student;
 
-    public SeatOrder() {
+    public Seat() {
     }
 
-    public SeatOrder(Long id, Seat seat) {
+    public Seat(Long id) {
         this.id = id;
-        this.seat = seat;
     }
 
     public Long getId() {
@@ -29,20 +28,20 @@ public class SeatOrder {
         this.id = id;
     }
 
-    public Seat getSeat() {
-        return seat;
+    public Student getStudent() {
+        return student;
     }
 
-    public void setSeat(Seat seat) {
-        this.seat = seat;
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof SeatOrder)) return false;
-        SeatOrder seatOrder = (SeatOrder) o;
-        return Objects.equals(id, seatOrder.id);
+        if (!(o instanceof Seat)) return false;
+        Seat seat = (Seat) o;
+        return Objects.equals(id, seat.id);
     }
 
     @Override
