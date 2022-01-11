@@ -49,14 +49,22 @@ lessonTime: Long
 
 class TimeTable{
 timeTableID: Long PK
+personID: Long FK
+subjectID: Long FK
 day: Long
 lessonTime: Long
 }
 
 class Subject{
 subjectID: Long PK
-timeTableID: Long FK
+name: String
 
+}
+
+class Table {
+tableId: Long PK
+row: Int
+column: Int
 }
 
 Abstract Class Person{
@@ -65,19 +73,18 @@ lastName: String
 personID: Long
 }
 
-Person *.. Student
-Person *.. Teacher
-Teacher ||..|{ Subject
-TimeTable ||..|{ Subject
-Student }|..|| Class
-TimeTable ||..|{ Class
-Student ||..|{ Absent
-Student ||..|| Seat
-Subject ||..|| SeatOrder
-Seat }|..|| SeatOrder
-SeatOrder }|..|| Room
+Person *.. Student : inherit
+Person *.. Teacher : inherit
+TimeTable ||..|{ Subject : 1 : n
+Student }|..|| Class : n : 1
+TimeTable ||..|{ Class : 1 : n
+Student ||..|{ Absent: 1 : n
+Student ||.up.|| Seat : 1 : 1
+SeatOrder }|..|| Room : n : 1
+Table }|..|| SeatOrder : n : 1
+Table ||..|{ Seat : 1 : n
+Teacher ||..|{ TimeTable : 1 : n
+SeatOrder ||..|{ TimeTable : 1 : n
 
 
 @enduml
-
-
